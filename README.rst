@@ -4,9 +4,9 @@ This app exports Wordpress post to csv. It uses [django-wordpress](https://githu
 
 ## How to use from A to Z
 
-1. ```text git clone https://github.com/xenu256/wordpress_to_csv```
-2. ```text cd wordpress_to_csv```
+1. ``' git clone https://github.com/xenu256/wordpress_to_csv```
+2. ``` cd wordpress_to_csv```
 3. If WP site is already dropped, just create new database and import backup there.
 4. Edit settings.py with Wordpress database prefix and credentials
-5. ```text python manage.py wpexport ```
+5. ``` python manage.py wpexport ```
 6. Collect csv from exports/ and use it for better site.
